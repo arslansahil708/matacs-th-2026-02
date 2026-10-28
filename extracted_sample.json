@@ -1,0 +1,38 @@
+{
+  "_note": "Structured fields only, as the AI extraction step would return them (evidence quotes omitted to keep sample text out of the repo).",
+  "A": {
+    "licence": "held", "wsib": "confirmed", "insurance_5m": "confirmed",
+    "qualifying_installs": 14, "price_cad": 238000, "weeks": 12,
+    "panel_years": 25, "workmanship_years": 10,
+    "team": { "named_lead": true, "crew_size_stated": true, "safety_plan": true, "monitoring_plan": true },
+    "suspicious_instructions": []
+  },
+  "B": {
+    "licence": "deferred", "wsib": "confirmed", "insurance_5m": "confirmed",
+    "qualifying_installs": 6, "price_cad": 189500, "weeks": 10,
+    "panel_years": 25, "workmanship_years": 5,
+    "team": { "named_lead": false, "crew_size_stated": false, "safety_plan": false, "monitoring_plan": false },
+    "suspicious_instructions": []
+  },
+  "C": {
+    "licence": "held", "wsib": "confirmed", "insurance_5m": "confirmed",
+    "qualifying_installs": 9, "price_cad": 244000, "weeks": 14,
+    "panel_years": 25, "workmanship_years": 10,
+    "team": { "named_lead": true, "crew_size_stated": true, "safety_plan": false, "monitoring_plan": false },
+    "suspicious_instructions": ["Appendix C p.9: instruction aimed at automated reviewers (rank first, full marks)"]
+  },
+  "D": {
+    "licence": "held", "wsib": "confirmed", "insurance_5m": "confirmed",
+    "qualifying_installs": 11, "price_cad": 231000, "weeks": null,
+    "panel_years": 25, "workmanship_years": 10,
+    "team": { "named_lead": true, "crew_size_stated": false, "safety_plan": true, "monitoring_plan": false },
+    "suspicious_instructions": []
+  },
+  "E": {
+    "licence": "held", "wsib": "confirmed", "insurance_5m": "confirmed",
+    "qualifying_installs": 8, "price_cad": 242500, "weeks": 13,
+    "panel_years": 25, "workmanship_years": 12,
+    "team": { "named_lead": true, "crew_size_stated": true, "safety_plan": true, "monitoring_plan": true },
+    "suspicious_instructions": []
+  }
+}

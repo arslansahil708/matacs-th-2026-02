@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "category": "Commercial Solar Installation",
+  "budget_ceiling_cad": 260000,
+  "max_weeks": 16,
+  "mandatory": ["licence", "wsib", "insurance_5m"],
+  "weights": {
+    "experience": 30,
+    "price": 25,
+    "timeline": 15,
+    "warranty": 15,
+    "team": 15
+  },
+  "params": {
+    "experience_tiers": [
+      { "min": 12, "pct": 1.0 },
+      { "min": 10, "pct": 0.85 },
+      { "min": 8, "pct": 0.70 },
+      { "min": 5, "pct": 0.50 },
+      { "min": 1, "pct": 0.25 }
+    ],
+    "timeline_full_marks_weeks": 8,
+    "warranty_full_panel_years": 25,
+    "warranty_full_workmanship_years": 12,
+    "team_items": ["named_lead", "crew_size_stated", "safety_plan", "monitoring_plan"]
+  }
+}
